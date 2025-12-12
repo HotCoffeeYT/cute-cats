@@ -28,7 +28,14 @@ body {
 	font-variation-settings:
     "MORF" 15,
     "SHLN" 50;
-
+        background-color: #825DD35D;
+	align-self: stretch;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin: 90px;
+	border: solid 3px #1D47D1;
+	border-radius: 15px;
 
 }
 
@@ -43,8 +50,10 @@ body {
 
 .media img {
 	border-radius: 15px;
+	border: solid 3px #1D47D1;
 	min-width: 250px;
 	flex: 0;
+	box-shadow: 10px 5px 5px #070707;
 
 }
 
