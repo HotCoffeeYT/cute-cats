@@ -15,6 +15,7 @@ body {
 	#833BCC 75%,
 	#3759CC 100%);
 	align-items: center;
+	gap: 25px;
 	font-family: "gg sans Normal", serif;
 }
 
@@ -51,15 +52,16 @@ body {
 .media img {
 	border-radius: 15px;
 	border: solid 3px #1D47D1;
-	min-width: 250px;
+	min-width: 800px;
 	flex: 0;
 	box-shadow: 10px 5px 5px #070707;
 
 }
 
 .catvideo {
-	width: 480px;
-	height: 852px;
+	width: 800px;
+	height: 1172px;
+	border: 4px solid #000000;
 	flex: 1;
 	background: linear-gradient(90deg,
 	#CCBC2E 0%,
@@ -69,6 +71,6 @@ body {
 	#3759CC 100%);
 	padding: 25px;
 	border-radius: 25px;
-	margin: 50px;
+	margin: 15px;
 
 }
